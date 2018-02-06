@@ -14,7 +14,6 @@
         }
 	.a2 
 		{
-			font-size: 20px;
 			float: right;
 		}
 	.a1
@@ -34,7 +33,12 @@
 		{
 			font-size: 20px;
 			float: left;
-			padding: 10px;
+			padding: 14px;
+		}
+		li.t3
+		{
+			float: left;
+			padding: 22px;
 		}
 		.box
 		{
@@ -45,6 +49,18 @@
             height: 500px;
             margin: 1em;
 		}
+		.btn-social {
+            width: 40px;
+            height: 40px;
+            opacity: 0.8;
+            transition: 0.2s ease;
+            cursor: pointer;
+        }
+
+        .btn-social:hover {
+            transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+            opacity: 1;
+        }
 	   
 	</style>
 </head>
@@ -65,21 +81,21 @@
 	<div style="background-color: #eeeeee; height: 190px; width: 80%; ">
 		<h2 style="text-align: center; padding-top: 20px;">Social Network</h2><br>
 		<ul style="list-style-type:none; text-align: center; " >
-			<li class="t2"><a href="https://plus.google.com/" target="_blank" ><img src="g.png" style="height: 40px; width: 40px;"></a></li>
-			<li class="t2"> <a href="https:/www.facebook.com" target="_blank" "><img src="fb.png" style="height: 40px; width: 40px;"></a></li>
-			<li class="t2"><a href="https://www.instagram.com" target="_blank" ><img src="insta.png" style="height: 40px; width: 40px;"></a></li>
-			<li class="t2"><a href="https://twitter.com" target="_blank" ><img src="twit.png" style="height: 40px; width: 40px;"></a></li>
-			<li class="t2"><a href="https://web.whatsapp.com/" target="_blank" ><img src="whatsapp.png" style="height: 40px; width: 40px;"></a></li>
+			<li class="t2"><a href="https://plus.google.com/" target="_blank" ><img src="g.png" class="btn-social" ></a></li>
+			<li class="t2"> <a href="https:/www.facebook.com" target="_blank" "><img src="fb.png" class="btn-social"></a></li>
+			<li class="t2"><a href="https://www.instagram.com" target="_blank" ><img src="insta.png" class="btn-social"></a></li>
+			<li class="t2"><a href="https://twitter.com" target="_blank" ><img src="twit.png" class="btn-social"></a></li>
+			<li class="t2"><a href="https://web.whatsapp.com/" target="_blank" ><img src="whatsapp.png" class="btn-social"></a></li>
 		</ul>
 	</div>
 	<div style="height: 20px;"></div>
 	<div style="background-color: #eeeeee; height: 190px; width: 80%; ">
 		<h2 style="text-align: center; padding-top: 20px;">Professional Network</h2><br>
 		<ul style="list-style-type:none; text-align: center; " >
-			<li class="t2"> <a href="https:/www.github.com" target="_blank" "><img src="github.png" style="height: 40px; width: 40px;"></a></li>
-			<li class="t2"><a href="https://www.linkedin.com" target="_blank" ><img src="in.png" style="height: 40px; width: 40px;"></a></li>
-			<li class="t2"><a href="https://www.quora.com" target="_blank" ><img src="quora.png" style="height: 40px; width: 40px;"></a></li>
-			<li class="t2"><a href="https://www.medium.com/" target="_blank" ><img src="medium.png" style="height: 40px; width: 40px;"></a></li>
+			<li class="t3"> <a href="https:/www.github.com" target="_blank" "><img src="github.png" class="btn-social"></a></li>
+			<li class="t3"><a href="https://www.linkedin.com" target="_blank" ><img src="in.png" class="btn-social"></a></li>
+			<li class="t3"><a href="https://www.quora.com" target="_blank" ><img src="quora.png" class="btn-social"></a></li>
+			<li class="t3"><a href="https://www.medium.com/" target="_blank" ><img src="medium.png" class="btn-social"></a></li>
 		</ul>
 	</div>
 </div>
