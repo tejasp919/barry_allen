@@ -1,2 +1,1 @@
-open only untitled.html
-if wih to download, put all files in one folder
+open only untitled.html if wish to download these front end website and then put all files in one folder
